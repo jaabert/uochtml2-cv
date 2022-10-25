@@ -1,0 +1,15 @@
+/*
+RESET RULES
+*/
+* {
+    box-sizing: border-box;
+  }
+/*
+GENERIC ELEMENTS
+*/
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
