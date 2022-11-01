@@ -1,8 +1,30 @@
 .cv_footer {
     margin-top: 2rem;
-}
+    background-color: $color__primary;
+    color: $color__bright;
 
-.cv_footer__container {
-    background-color: transparent;
-    padding: 2rem 0;
+    &_container {
+        display: flex;
+        padding: 2rem 0;
+        background-color: transparent;
+    }
+
+    &_box {
+        padding-right: 2rem;
+        padding-left: 1rem;
+        /*some sass shit transparency... */
+        border-right: 1px dotted $color__bright;
+
+        &:last-child {
+            display: flex;
+            justify-content: flex-end;
+            flex-grow: 1;
+            padding-left: 0;
+            border-right: none;
+        }
+
+        ul > li {
+            list-style-type: none;
+        }
+    }
 }
