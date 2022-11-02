@@ -1,16 +1,6 @@
 
 .cv {
 
-  &_title {
-    font-family: $font-family-sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: $color__primary;
-  
-    @media (min-width: $mqMinWidth) {
-      font-size: 24px;
-    }
-  }
 
   &_frame {
     display: flex;
@@ -31,24 +21,9 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
 
-  &_area {
-    display: flex;
-    flex-wrap: wrap;
-  }
+
   
-  &_box {
-    flex: 0 1 50%;
-    margin-bottom: 1.5rem;
 
-    &:nth-child(odd) {
-      padding-right: 1rem;
-    }
-
-    &:nth-child(even) {
-      padding-left: 2rem;
-      border-left: 1px solid $color__primary;
-    }
-  }
 
   &_header {
     margin-bottom: 1rem;

@@ -1,4 +1,4 @@
-.cv_footer {
+.footer {
     margin-top: 2rem;
     background-color: $color__primary;
     color: $color__bright;
@@ -10,21 +10,35 @@
     }
 
     &_box {
+        max-width: 245px;
         padding-right: 2rem;
         padding-left: 1rem;
         /*some sass shit transparency... */
         border-right: 1px dotted $color__bright;
 
-        &:last-child {
-            display: flex;
-            justify-content: flex-end;
-            flex-grow: 1;
-            padding-left: 0;
+        &:first-child {
             border-right: none;
+        }
+
+        &:last-child {
+            flex-grow: 1;
+            max-width: none;
+            padding: 0;
+            border-right: none;
+            text-align: right;
+        }
+
+        ul {
+            padding-left: 0;
         }
 
         ul > li {
             list-style-type: none;
         }
+    }
+
+    &__item {
+        margin-bottom:10px;
+        border-bottom: 1px dotted $color__primary;
     }
 }

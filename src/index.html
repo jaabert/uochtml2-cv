@@ -9,62 +9,8 @@
   </head>
   <body class="cv_frame">
     <main class="container cv_container">
-      <!--photo, ABOUT ME AND PERSONAL INFO-->
-      <header class="cv_header">
-        <div class="cv_area">
-          <picture class="cv_picture">
-            <source srcset="./assets/images/foto_cv.jpg?as=webp&width=350" type="image/webp" />
-            <img  class="cv_photo" src="./assets/images/foto_cv.jpg?width=350" alt="Javier Altabert photo" />
-          </picture>
-          <div class="cv_persona">
-            <div class="cv_persona_name">
-              <h1>Javier Altabert Subiela</h1>
-              <h2>Frontend developer</h2>
-            </div>
-            <div class="cv_persona_contact">
-              <ul>
-                <li>ic: Born in 1976</li>
-                <li>ic: living in València</li>
-                <li>ic: Phone: 555 543 345</li>
-                <li>ic: Mail: j@mymail.com</li>
-              </ul>
-            </div>
-            <div class="cv_persona_quote">
-              <cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium in perspiciatis atque nisi consequatur, hic id! Maiores, suscipit nisi magnam sint sapiente deserunt possimus.</cite>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="cv_area">
-        <!--Academic INFO-->
-        <section class="cv_box">
-          <h2 class="cv_title"><i class="fas fa-university"></i>  Academic info</h2>
-          <p>
-            Lorem ipsume dolor sit amet consectetur, adipisicing elit. Nobis vel voluptates officia voluptatem similique maiores fugit facere quisquam voluptatibus provident necessitatibus, dignissimos, magnam voluptate vero quam neque perferendis? Eos, sit.
-          </p>
-        </section>
-        <!--Working experience INFO-->
-        <section class="cv_box">
-          <h2 class="cv_title"><i class="fas fa-university"></i>  Experience info</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis vel voluptates officia voluptatem similique maiores fugit facere quisquam voluptatibus provident necessitatibus, dignissimos, magnam voluptate vero quam neque perferendis? Eos, sit.
-          </p>
-        </section>
-        <!-- Languajes and skills-->
-        <section class="cv_box">
-          <h2 class="cv_title"><i class="fas fa-university"></i>  Languajes info</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis vel voluptates officia voluptatem similique maiores fugit facere quisquam voluptatibus provident necessitatibus, dignissimos, magnam voluptate vero quam neque perferendis? Eos, sit.
-          </p>
-        </section>
-        <!-- Hobbies and side projects-->
-        <section class="cv_box">
-          <h2 class="cv_title"><i class="fas fa-university"></i>  Hobbies info</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis vel voluptates officia voluptatem similique maiores fugit facere quisquam voluptatibus provident necessitatibus, dignissimos, magnam voluptate vero quam neque perferendis? Eos, sit.
-          </p>
-        </section>      
-      </div>  
+      <include src="./views/header.html"></include>
+      <include src="./views/area.html"></include>  
     </main>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->

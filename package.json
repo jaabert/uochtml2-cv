@@ -1,8 +1,8 @@
 {
-  "name": "uoc-boilerplate",
+  "name": "cv",
   "version": "3.5.0",
   "private": true,
-  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "description": "Single page document for webpage CV",
   "scripts": {
     "stylelint": "stylelint src/**/*.scss",
     "parcel:serve": "parcel src/index.html -p 8123 --target web --open",
@@ -27,8 +27,8 @@
     "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
   },
   "author": {
-    "name": "Jordi Tarrida",
-    "email": "jorditarrida@uoc.edu"
+    "name": "Javier Altabert",
+    "email": "jaltabert@uoc.edu"
   },
   "license": "MIT",
   "bugs": {
