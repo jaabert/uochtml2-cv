@@ -1,7 +1,5 @@
 
 .cv {
-
-
   &_frame {
     display: flex;
     flex-direction: column;
@@ -19,62 +17,5 @@
     padding: 3rem 4rem;
     border-radius: 6px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  }
-
-
-  
-
-
-  &_header {
-    margin-bottom: 1rem;
-    border-bottom: 1px dotted $color__primary;
-  }
-
-  &_persona {
-    display: flex;
-    flex: 0 1 70%;
-    flex-wrap: wrap;
-    padding-left: 1rem;
-
-    &_name {
-      flex: 0 1 100%;
-      margin-bottom: 0;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid lightgrey;
-
-      > h2 {
-        margin-bottom: 0;
-      }
-    }
-
-    &_contact {
-      flex: 0 1 40%;
-      padding-left: 1rem;
-
-      & > ul {
-        padding-left: 0.2rem;
-      }
-    }
-
-    &_quote {
-      flex: 0 1 60%;
-
-      & > cite {
-        display: block;
-        padding: 1rem;
-        font-size: 15px;
-        line-height: 22px;
-      }
-    }
-
-  }
-
-  &_picture {
-    flex: 0 1 30%;
-    max-width: 300px;
-  }
-
-  &_photo {
-    width: 100%;
   }
 }
