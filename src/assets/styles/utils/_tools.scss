@@ -1,6 +1,30 @@
+
+/** RESPONSIVE LAYOUT TOOLING **/
+@mixin tablet {
+  @media (min-width: $tablet) {
+    @content;
+  }
+} 
+
+@mixin laptop { 
+  @media (min-width: $laptop) {
+    @content;
+  }
+}
+
+@mixin desktop { 
+  @media (min-width: $desktop
+  ) {
+    @content;
+  }
+}
+
+/** GENERAL PURPOUSES LAYOUT TOOLING **/
 .area {
-  display: flex;
-  flex-wrap: wrap;
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .container {
@@ -8,9 +32,16 @@
     margin: 0 auto;
     padding: 1rem;
     background-color: #fff;
-  
-    @media (min-width: $mqMinWidth) {
-      max-width: 800px;
+
+    @include tablet {
+      max-width: 730px;
       padding: 2rem;
     }
+
+    @include laptop {
+      max-width: 800px;
+    }
   }
+
+
+

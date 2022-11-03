@@ -7,23 +7,23 @@ RESET RULES
 /*
 GENERIC ELEMENTS
 */
-  body {
-    margin: 0
-  }
+body {
+  margin: 0
+}
 
-  a {
-    text-decoration: none;
-    color: $color__link;
+a {
+  text-decoration: none;
+  color: $color__link;
 
-    &:hover,
-    &:active,
-    &:focus {
-      color: $color__link--active
-    }
+  &:hover,
+  &:active,
+  &:focus {
+    color: $color__link--active
   }
+}
 
-  address {
-    font-size: .8rem;
-    line-height: 1.2rem;
-    padding-top: .8rem;
-  }
+address {
+  font-size: .8rem;
+  line-height: 1.2rem;
+  padding-top: .8rem;
+}

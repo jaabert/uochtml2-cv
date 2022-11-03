@@ -5,16 +5,29 @@
 
     &_container {
         display: flex;
+        flex-direction: column;
         padding: 2rem 0;
         background-color: transparent;
+
+        @include tablet {
+            flex-direction: row;
+        }
     }
 
     &_box {
         max-width: 245px;
         padding-right: 2rem;
         padding-left: 1rem;
-        /*some sass shit transparency... */
-        border-right: 1px dotted $color__bright;
+        border-bottom: 1px dotted darken($color__bright, 70%);
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+
+        @include tablet {
+            border-right: 1px dotted darken($color__bright, 70%);
+            border-bottom: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
 
         &:first-child {
             border-right: none;
@@ -23,9 +36,16 @@
         &:last-child {
             flex-grow: 1;
             max-width: none;
-            padding: 0;
+            padding:  0 0 0 1rem;
             border-right: none;
-            text-align: right;
+            border-bottom: none;
+            text-align: left;
+
+            @include tablet {
+                text-align: right;
+                padding:  0;
+                margin-right: 10px;
+            }
         }
 
         ul {
@@ -39,6 +59,5 @@
 
     &__item {
         margin-bottom:10px;
-        border-bottom: 1px dotted $color__primary;
     }
 }

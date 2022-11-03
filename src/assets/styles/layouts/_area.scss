@@ -1,15 +1,23 @@
 
 .box {
-    flex: 0 1 50%;
+    flex: 0 1 100%;
     margin-bottom: 1.5rem;
 
+    @include tablet {
+      flex: 0 1 50%;
+    }
+
     &:nth-child(odd) {
+      @include tablet {
         padding-right: 1rem;
+      }
     }
 
     &:nth-child(even) {
-        padding-left: 2rem;
-        border-left: 1px solid $color__primary;
+        @include tablet {
+          padding-left: 2rem;
+          border-left: 1px solid lighten($color__primary, 85%);
+        }
     }
 
     &_title {
@@ -18,7 +26,7 @@
         font-weight: 400;
         color: $color__primary;
       
-        @media (min-width: $mqMinWidth) {
+        @include tablet {
           font-size: 24px;
         }
       }

@@ -13,15 +13,18 @@
 # Características
 
 - :done Debe ser un sitio web de una sola página. 
-- El contenido de la página debe ser tu Currículum Vitae. 
-- La página debe ser responsive (teléfono, tablet, ordenador…).
-- Debes partir de UOC Boilerplate para tu desarrollo. Asegúrate de estar usando la última versión (3.5.0). Debes respetar la estructura y nomenclatura de carpetas y ficheros (¡a menos que la metodología o guía de estilo escogida te indique lo contrario!). 
-- Debes añadir alguna dependencia externa a UOC Boilerplate. En la guía del módulo 1 tienes como ejemplo cómo añadir FontAwesome, que puede ser una dependencia válida para este ejercicio. Pero si te atreves, puedes probar a añadir cualquier otra dependencia que creas útil. Si escoges otra dependencia, es buena idea que expliques en el foro cuál es, por qué la escogiste, y si tienes cualquier duda o incidencia con su uso.
+- :done El contenido de la página debe ser tu Currículum Vitae. 
+- :done La página debe ser responsive (teléfono, tablet, ordenador…).
+- :done Debes partir de UOC Boilerplate para tu desarrollo. Asegúrate de estar usando la última versión (3.5.0). Debes respetar la estructura y nomenclatura de carpetas y ficheros (¡a menos que la metodología o guía de estilo escogida te indique lo contrario!). 
+- :done Debes añadir alguna dependencia externa a UOC Boilerplate. En la guía del módulo 1 tienes como ejemplo cómo añadir FontAwesome, que puede ser una dependencia válida para este ejercicio. Pero si te atreves, puedes probar a añadir cualquier otra dependencia que creas útil. Si escoges otra dependencia, es buena idea que expliques en el foro cuál es, por qué la escogiste, y si tienes cualquier duda o incidencia con su uso.
+- :done Una vez finalices el desarrollo debes publicar el código en GitHub y realizar un deployment en Netlify, como se explica en la guía del módulo 1.
+- :done El código que entregues deberá estar compilado para producción con el comando npm run build
+- :done Debes utilizar necesariamente las siguientes características de Sass: variables, anidado, funciones, parciales y importación.
+
 - Debes escoger una o más de las metodologías y guías de estilo estudiadas en el módulo 2 y aplicarlas en tu desarrollo. Puedes debatir en el foro cuáles son las opciones más adecuadas.
+
 - Deberás instalar Stylelint y personalizar su configuración para que aplique los criterios de estilos escogidos, con plugins y reglas personalizadas, como se explica en el módulo 2. Al ejecutar el comando de validación no debe aparecer ningún error. También puedes comentar en el foro qué plugins y reglas aplicaste.
-- Debes utilizar necesariamente las siguientes características de Sass: variables, anidado, funciones, parciales y importación.
-- Una vez finalices el desarrollo debes publicar el código en GitHub y realizar un deployment en Netlify, como se explica en la guía del módulo 1.
-- El código que entregues deberá estar compilado para producción con el comando npm run build.
+
 
 # Documentación
 - Deberás documentar todo el proceso de desarrollo de esta práctica (descargar/clonar el repositorio, instalar dependencias, el entorno de desarrollo, la compliación para producción, la publicación, etc), explicando los pasos que seguiste y los resultados obtenidos.
