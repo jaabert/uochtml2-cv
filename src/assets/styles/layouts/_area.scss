@@ -1,3 +1,4 @@
+@use "sass:color";
 
 .box {
     flex: 0 1 100%;
@@ -16,11 +17,11 @@
     &:nth-child(even) {
         @include tablet {
           padding-left: 2rem;
-          border-left: 1px solid lighten($color__primary, 85%);
+          border-left: 1px solid color.adjust($color__primary, $lightness: 85%);
         }
     }
 
-    &_title {
+    &__title {
         font-family: $font-family-sans-serif;
         font-size: 20px;
         font-weight: 400;
@@ -29,5 +30,5 @@
         @include tablet {
           font-size: 24px;
         }
-      }
+    }
 }

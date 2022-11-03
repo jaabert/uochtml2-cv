@@ -1,9 +1,11 @@
+@use "sass:color";
+
 .footer {
     margin-top: 2rem;
     background-color: $color__primary;
     color: $color__bright;
 
-    &_container {
+    &__container {
         display: flex;
         flex-direction: column;
         padding: 2rem 0;
@@ -14,16 +16,16 @@
         }
     }
 
-    &_box {
+    &__box {
         max-width: 245px;
         padding-right: 2rem;
         padding-left: 1rem;
-        border-bottom: 1px dotted darken($color__bright, 70%);
+        border-bottom: 1px dotted color.adjust($color__bright, $lightness: -70%);
         margin-bottom: 1rem;
         padding-bottom: 1rem;
 
         @include tablet {
-            border-right: 1px dotted darken($color__bright, 70%);
+            border-right: 1px dotted color.adjust($color__bright, $lightness: -70%);
             border-bottom: 0;
             margin-bottom: 0;
             padding-bottom: 0;
